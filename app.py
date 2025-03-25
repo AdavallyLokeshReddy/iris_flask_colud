@@ -17,7 +17,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load the model
-model = joblib.load('load_model.pkl')
+model = joblib.load('iris_model.pkl')
 
 @app.route('/')
 def home():
